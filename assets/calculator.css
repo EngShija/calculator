@@ -1,0 +1,45 @@
+
+
+.keys input {
+    width: 45px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.container {
+    box-shadow: 0 15px 30px 0;
+    margin: 0 auto;
+    text-align: center;
+    padding: 18px 8px;
+    width: fit-content;
+    border-radius: 20px;
+    font-weight: bolder;
+    background: black;
+    width: fit-content;
+}
+
+.head input{
+    background: rgb(190, 171, 171); 
+    height: 30px; 
+    border: none;
+    width: 100%;
+}
+
+.keys {
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.operator {
+    background: yellow;
+}
+
+.trig {
+    background: rgb(116, 160, 160);
+}
+
+.caluu {
+    display: inline-flex;
+    margin: 20px;
+    width: 100%;
+}

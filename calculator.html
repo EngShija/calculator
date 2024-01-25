@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/calculator.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="assets/calculator.css" type="text/css">
+    <title>calculator</title>
+</head>
+<body>
+<div class="caluu">
+ </div>
+
+    <div class="container">
+        <div class="head">
+                     
+                    <input type="text" id="input" class="screen"><br>
+                    <input type="text" id="result" class="screen" style="text-align: right;">
+    </div>
+    <table>
+
+        <div class="keys">
+            <input type="button" value="(" class="button" onclick="display('(')">
+            <input type="button" value=")" class="button" onclick="display(')')">
+            <input type="button" value="mod" class="button" onclick="display('%')">
+            <input type="button" value="/" class="operator" onclick="display('/')"><br><br>
+            <input type="button" value="1" class="button" onclick="display('1')">
+            <input type="button" value="2" class="button" onclick="display('2')">
+
+            <input type="button" value="3" class="button" onclick="display('3')">
+            <input type="button" value="X" class="operator" onclick="display('*')"><br><br>
+
+
+            <input type="button" value="4" class="button" onclick="display('4')">
+
+            <input type="button" value="5" class="button" onclick="display('5')">
+
+            <input type="button" value="6" class="button" onclick="display('6')">
+            <input type="button" value="-" class="operator" onclick="display('-')"><br><br>
+
+
+            <input type="button" value="7" class="button" onclick="display('7')">
+
+            <input type="button" value="8" class="button" onclick="display('8')">
+            <input type="button" value="9" class="button" onclick="display('9')">
+            <input type="button" value="+" class="operator" onclick="display('+')"><br><br>
+
+            <input type="button" value="0" class="button" onclick="display('0')">
+            <input type="button" value="." class="button" onclick="display('.')">
+            <input name="deleteButton" type="button" style="background: red;" value="DEL" onclick="del()">
+            <input type="button" value="AC" onclick="clearScreen()" class="clear" style="background: red;" /><br><br>
+            <input type="button" class="trig" value="sin" onclick="sin('sin')">
+            <input type="button" class="trig" value="cos" onclick="cos('cos')">
+            <input type="button" class="trig" value="tan" onclick="tan('tan')">
+            <input type="button" value="x^" class="operator" onclick="display('**')"><br><br>
+            <input type="button" class="trig" value="e" onclick="elen('e')">
+            <input type="button" class="trig" value="ln" onclick="ln()">
+            <input type="button" class="trig" value="log" onclick="log()">
+            <input type="button" value="=" class="solve" onclick="solve('=')" style="background: blue;">
+        </div>    
+    </table>
+    </div>
+</div>
+</body>
+
+</html>
